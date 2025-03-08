@@ -1,0 +1,97 @@
+.visit__section {
+  margin-bottom: 150px;
+  padding-top: 60px;
+}
+
+.column_title_wrapper {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  text-align: left;
+  padding: 15px;
+  border-bottom: 2px solid var(--border-color);
+  color: var(--column-title);
+  font-size: var(--text-title);
+  font-weight: var(--weight-bold);
+}
+
+.list__wrapper {
+  overflow: auto;
+}
+
+.visit__list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+  min-width: 750px;
+}
+.visit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  margin: 0 15px;
+  color: var(--unfocused);
+  border-bottom: 2px solid var(--border-color);
+  font-size: var(--text-small);
+  font-weight: var(--weight-normal);
+}
+
+.column__title,
+.visit__item {
+  flex-basis: 15%;
+  padding-right: 5px;
+}
+
+.visit__item {
+  list-style: none;
+}
+
+.column__title:nth-child(2),
+.visit__item:nth-child(2) {
+  flex-basis: 30%;
+}
+
+.delete__button__wrapper,
+.column__title:last-child {
+  flex-basis: 10%;
+}
+
+.delete__button__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+}
+
+.visit__product__name::first-letter {
+  text-transform: capitalize;
+}
+
+/* Toaster styles */
+.toaster {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.toaster__button__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.toaster__text {
+  font-size: var(--text-paragraph);
+  font-weight: var(--weight-normal);
+  color: var(--black);
+  text-align: center;
+}
+
+.toaster__button {
+  font-size: var(--text-small);
+  font-weight: var(--weight-light);
+}

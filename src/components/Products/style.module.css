@@ -1,0 +1,23 @@
+.table__wrapper {
+    overflow-x: auto;
+}
+
+.product__section {
+    margin-bottom: 150px;
+    padding-top: 60px;
+}
+
+.products__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table__title {
+    font-size: var(--text-title);
+    font-weight: var(--weight-bold);
+    padding: 15px;
+    border-bottom: 2px solid var(--border-color);
+    color: var(--column-title);
+    text-align: left;
+
+}

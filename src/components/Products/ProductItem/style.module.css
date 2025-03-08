@@ -1,0 +1,62 @@
+.row {
+    width: 100%;
+}
+
+
+.row__item {
+    border-bottom: 2px solid var(--border-color);
+    padding: 15px;
+    width: 20%;
+    font-size: var(--text-small);
+    font-weight: var(--weight-normal);
+    word-wrap: break-word;
+    text-align: center;
+    text-align: left;
+}
+.row__item::first-letter {
+    text-transform: capitalize;
+}
+
+.row__item:nth-child(5),
+.row__item:nth-child(6) {
+    width: 10%;
+}
+
+.delete__button {
+    font-size: 0;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Toaster styles */
+.toaster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.toaster__button__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.toaster__text {
+  font-size: var(--text-paragraph);
+  font-weight: var(--weight-normal);
+  color: var(--black);
+  text-align: center;
+}
+
+.toaster__button{
+    font-size: var(--text-small);
+    font-weight: var(--weight-light);
+}
